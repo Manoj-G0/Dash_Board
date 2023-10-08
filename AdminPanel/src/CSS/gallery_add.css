@@ -1,0 +1,10 @@
+.main{
+    align-items: center;
+    color:white;
+    background-color:transparent;
+    text-align: left;
+}
+input{
+    margin:7px;
+    padding:5px 10px;
+}
