@@ -7,9 +7,9 @@ export default class Add extends Component {
   return (
     <div >
         <center>
-        <div className='main' >
-        <p style={{fontSize:'40px'}} align="center">Coding</p>
-            <table>
+        <div className='main' align="center">
+        <p style={{fontSize:'40px',color:"black",fontWeight:"bold"}} align="center">Coding</p>
+            <table align="center">
             <tr><th colspan="2" align="center">Upload Winner Details</th></tr>
             
             <tr><th>Date</th><td><input type="date" /></td></tr>

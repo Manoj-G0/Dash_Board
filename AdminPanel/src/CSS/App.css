@@ -1,10 +1,14 @@
+body{
+  background-color: lightgreen;
+}
 .icon {
   vertical-align: middle;
   line-height: 1px;
   font-size: 20px;
 }
 .header{
-  background-color: #263043;
+  background-color:lightgrey;
+  color:#263043;
 }
 input{
   border-radius:7px;
@@ -46,8 +50,7 @@ input{
   box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
   font-size: 40px;
   text-align: center;
-  padding-left:450px;
-  color:orangered;
+  padding-left:480px;
   font-weight:bolder;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -61,10 +64,11 @@ input{
 #sidebar {
   grid-area: sidebar;
   height: 100%;
-  background-color: #263043;
+  background-color:lightgrey;
   overflow-y: auto;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
+  box-shadow: 4px 0px 16px rgba(0, 0, 0, 0.35);
 }
 
 .sidebar-title {
@@ -103,7 +107,7 @@ input{
 
 .sidebar-list-item > a {
   text-decoration: none;
-  color: #9e9ea4;
+  color: black;
 }
 
 .sidebar-responsive {

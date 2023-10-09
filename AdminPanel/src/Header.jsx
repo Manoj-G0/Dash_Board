@@ -6,7 +6,7 @@ import
 function Header({OpenSidebar}) {
   return (
     <header className='header'>
-        code carnival
+        Code Carnival
     </header>
   )
 }

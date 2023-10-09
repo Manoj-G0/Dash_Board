@@ -14,19 +14,19 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
         <ul className='sidebar-list'>
             <Link to="coding" style={{textDecoration:"none",color:"#fff"}}>
                 <li className='sidebar-list-item'>
-                    <icon.BsLaptop />
+                    <icon.BsLaptop style={{color:"black"}}/>
                     <Link to="coding">&nbsp; CODING</Link>
                 </li>
             </Link>
             <Link to="gallery" style={{textDecoration:"none",color:"#fff"}}>
                 <li className='sidebar-list-item'>
-                    <icon.BsImage />
+                    <icon.BsImage style={{color:"black"}} />
                     <Link to="gallery">&nbsp; GALLERY</Link>
                 </li>
             </Link>
             <Link to="announcements" style={{textDecoration:"none",color:"#fff"}}>
                 <li className='sidebar-list-item'>
-                    <icon.BsGrid1X2Fill />
+                    <icon.BsGrid1X2Fill style={{color:"black"}}/>
                     <Link to="announcements">&nbsp; ANNOUNCEMENTS</Link>
                 </li>
             </Link>

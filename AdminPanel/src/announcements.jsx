@@ -6,7 +6,7 @@ class Division1 extends Component {
     render() {
       return (
         <Link to="announce_view">
-          <div className="division" style={{textDecoration:"none",color:"#fff"}}>
+          <div className="division" style={{color:"black",width:"225px",height:"225px",boxShadow:"4px 4px 16px rgba(0,0,0,0.3)",textDecoration:"none",marginLeft:"200px"}}>
           <center><ic.BsEyeFill className="icon" /><br></br>
           <Link to="announce_view" className="tag">VIEW</Link>
           </center>
@@ -20,7 +20,7 @@ class Division1 extends Component {
     render() {
       return (
         <Link to="announce_add">
-          <div className="division" style={{textDecoration:"none",color:"#fff"}}>
+          <div className="division" style={{color:"black",width:"225px",height:"225px",boxShadow:"4px 4px 16px rgba(0,0,0,0.3)",textDecoration:"none"}}>
           <center><ic.BsPlus className="icon" /><br></br>
           <Link to="announce_add" className="tag">ADD</Link>
           </center>
@@ -35,7 +35,7 @@ class Division1 extends Component {
     render() {
       return (
         <Link to="announce_remove">
-          <div className="division" style={{textDecoration:"none",color:"#fff"}}>
+          <div className="division" style={{color:"black",width:"225px",height:"225px",boxShadow:"4px 4px 16px rgba(0,0,0,0.3)",textDecoration:"none"}}>
           <center><ic.BsFillXSquareFill className="icon" /><br></br>
           <Link to="announce_remove" className="tag">REMOVE</Link>
           </center>
@@ -49,7 +49,7 @@ class Division1 extends Component {
     render() {
       return (
         <div className="main">
-          <p style={{fontSize:'40px'}} align="center">Announcements</p>
+          <p style={{fontSize:'40px',color:"black"}} align="center">Announcements</p>
           <Division1 />
           <Division2 />
           <Division3 />

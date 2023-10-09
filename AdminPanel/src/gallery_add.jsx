@@ -7,8 +7,8 @@ export default class Insert extends Component {
   return (
     <div>
         <div className='main'>
-        <p style={{fontSize:'40px'}} align="center">Gallery</p>
-            <table>
+        <p style={{fontSize:'40px',color:"black"}} align="center">Gallery</p>
+            <table align="center">
             <tr><th>Date</th><td><input type="date" /></td></tr>
             <tr><th>AddImage</th><td><input type="file" /></td></tr>
             <tr><td colspan="2" align="center"><input type="submit" /></td></tr>
